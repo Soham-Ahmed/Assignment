@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1{
+    color: hotpink;
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+.half-width img{
+    width: 100%;
+
+}
+.half-width2{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 5%;
+
+}
+.half-width2 img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: hotpink;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+}
+.middle-banner{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+    
+    
+
+}
+section{
+    height: 900px;
+}
+h2{ 
+    text-align: center;
+    font-size: 30px;
+}
+.column{
+    float: left;
+    width: 30%;
+    margin-left: 60px;
+
+}
+.column img{
+    height: 400px;
+    width: 500px;
+    margin-bottom: 50px ;
+    
+}
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+
+}
+.latest-workbanner{
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+#bw{
+    text-align: center;
+    font-size: 25px;
+}
+#fc{
+    text-align: center;
+    color:gray;
+}
+#ls{
+    text-align: center;
+    font-size:20px ;
+}
+.link-buttonbig{   
+    text-align: center;
+    text-decoration: none;
+    background-color: hotpink;
+    padding: 50px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    margin-left: 680px;
+    }
+
+.ft{
+    text-align: center;
+    color: gray;
+}
+.footer-workbanner{
+    background-image: url("footer-bg.png");
+    background-repeat: no-repeat;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px mediumseagreen;
+    border-radius: 15px;
+    height:40%;
+    margin-top: 280px;
+}
+#full-stack{
+    border-left: 10px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient(lightblue,blue)
+    
+    
+}
+#half-stack{
+    border-left: 10px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient(orange,tomato)
+    
+}
+#hcolor{
+    text-align: center;
+    color: hotpink;
+}
+#hecolor{
+    text-align: center;
+    color: hotpink;
+}
+.experience-area{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+
+}
